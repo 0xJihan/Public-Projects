@@ -2,6 +2,13 @@
 
 A beautiful and feature-rich expense tracking app built with Jetpack Compose, offering comprehensive financial management with a modern Material 3 design.
 
+
+## 🚀 Download
+
+### Direct APK Download
+
+[![Download Expense Tracker](https://img.shields.io/badge/Download-APK-blue?style=for-the-badge)](https://github.com/0xJihan/Public-Projects/raw/refs/heads/main/Expense-Tracker-Compose/Expense%20Tracker.apk)
+
 ## ✨ Features
 
 ### 📊 Financial Management
@@ -45,13 +52,8 @@ A beautiful and feature-rich expense tracking app built with Jetpack Compose, of
 </p>
 
 
-## 🚀 Download
 
-### Direct APK Download
-[Download Latest Release](https://github.com/0xJihan/Expense-Tracker-Compose/raw/main/app/release/app-release.apk)
 
-### From Releases
-Visit the [Releases](https://github.com/0xJihan/Expense-Tracker-Compose/releases) page for all versions.
 
 ## 🏗 Tech Stack
 
@@ -63,24 +65,8 @@ Visit the [Releases](https://github.com/0xJihan/Expense-Tracker-Compose/releases
 - **Design**: Material 3
 - **Charts**: PieChart
 
-## 🛠 Installation
 
-### Prerequisites
-- Android Studio Arctic Fox or later
-- Android SDK 24+
-- Kotlin 1.8+
 
-### Setup
-1. Clone the repository
-```bash
-git clone https://github.com/0xJihan/Expense-Tracker-Compose.git
-```
-
-2. Open the project in Android Studio
-
-3. Sync project with Gradle files
-
-4. Run the app on your device or emulator
 
 ## 🎨 Customization
 
@@ -90,16 +76,7 @@ The app offers extensive theming options:
 - **Dark/Light mode** toggle
 - **Material 3 dynamic colors** support
 
-## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-### Contributing Guidelines
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📄 License
 
@@ -116,7 +93,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you have any questions or suggestions, feel free to reach out:
 
 - GitHub: [@0xJihan](https://github.com/0xJihan)
-- Issues: [Create an Issue](https://github.com/0xJihan/Expense-Tracker-Compose/issues)
+
 
 ---
 
