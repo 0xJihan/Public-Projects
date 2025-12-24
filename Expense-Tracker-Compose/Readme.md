@@ -9,6 +9,61 @@ A beautiful and feature-rich expense tracking app built with Jetpack Compose, of
 
 [![Download Expense Tracker](https://img.shields.io/badge/Download-APK-blue?style=for-the-badge)](https://github.com/0xJihan/Public-Projects/raw/refs/heads/main/Expense-Tracker-Compose/Expense%20Tracker.apk)
 
+
+## 🆕 What's New (v2.0)
+
+### 🧮 Calculator-Based Input
+- calculator for adding/editing expenses
+- Support for expressions like `200 + 50`, `500 - 120`
+- Live preview of calculated amount
+- Operators: +, −, ×, ÷
+
+### 📊 Advanced Insights & Analytics
+- Dedicated analytics screen with beautiful charts
+- Filter by Today, Week, Month, Year, or custom range
+- Total spent, daily average, highest spending day
+- Category breakdown with progress bars
+
+### 💰 Budget Management
+- Set monthly overall budget limits
+- Optional per-category budgets
+- Visual warnings at configurable thresholds (50-95%)
+- Track remaining budget in real-time
+
+### 🗑️ Soft Delete & Trash
+- Deleted items go to Trash instead of permanent deletion
+- Restore accidentally deleted transactions
+- Auto-delete after 30 days
+- Empty trash option
+
+### 📤 Data Export & Import
+- Export to JSON (full backup with all data)
+- Export to CSV (Excel-compatible)
+- Date-range export support
+- Import with duplicate handling (Skip/Merge/Overwrite)
+- Schema version checking for compatibility
+
+### 📝 Notes & Tags
+- Add notes to any transaction
+- Custom tags for better organization
+- Search by notes and tags
+
+
+
+### 🔐 App Lock & Security
+- Optional PIN lock (4-digit)
+- Biometric (fingerprint) authentication
+- Auto-lock on app exit
+- Secure PIN storage with SHA-256 hashing
+
+### 🔍 Smart Search
+- Search by amount, category, description
+- Search by notes and tags
+- Date range filtering
+- Optimized Room queries with indexes
+
+---
+
 ## ✨ Features
 
 ### 📊 Financial Management
@@ -16,25 +71,38 @@ A beautiful and feature-rich expense tracking app built with Jetpack Compose, of
 - **Category Management** - Create, edit, and delete custom categories
 - **Bulk Operations** - Delete all expenses under a category at once
 - **Visual Analytics** - Beautiful pie chart breakdown of your expenses
+- **Budget Limits** - Set and track monthly spending limits
 
 ### 🎨 User Experience
 - **Material 3 Design** - Modern, clean, and intuitive interface
 - **Dark/Light Theme** - Built-in dark mode support
-- **57 Theme Variants** - Extensive customization options
-- **Custom Color Picker** - Personalize categories with custom colors
+- **Color Picker** - Personalize categories with custom colors
 - **Beautiful Icons** - Thoughtfully designed iconography
+- **Calculator Input** - Natural expense entry with expressions
 
 ### 🔍 Transaction Management
 - **Transaction History** - View all your financial records
-- **Advanced Filtering** - Filter by all, income, or expense transactions
-- **Search Functionality** - Find transactions with query-based search
+- **Advanced Filtering** - Filter by all, income,expense,tags and date range transactions
+- **Search Functionality** - Smart search across all fields
 - **Edit/Delete** - Modify or remove transactions as needed
+- **Soft Delete** - Recover deleted items from Trash
+
+### 🔒 Security & Privacy
+- **App Lock** - PIN and biometric protection
+- **Encrypted Storage** - Secure local data storage
+- **Offline-First** - Works completely offline
+- **No Internet Required** - Your data never leaves your device
+
+### 📤 Backup & Restore
+- **JSON Export** - Full backup of all data
+- **CSV Export** - Open in Excel or Google Sheets
+- **Easy Import** - Restore from backup files
+- **Schema Versioning** - Future-proof backups
 
 ### 🛠 Technical Features
 - **Type-Safe Navigation** - Built with Jetpack Compose Navigation
 - **Dependency Injection** - Powered by Koin
 - **Ad-Free Experience** - No advertisements, completely free
-- **Open Source** - Fully transparent and community-driven
 
 ## 📱 Screenshots
 
@@ -54,39 +122,10 @@ A beautiful and feature-rich expense tracking app built with Jetpack Compose, of
 
 
 
-
-## 🏗 Tech Stack
-
-- **UI Framework**: Jetpack Compose
-- **Language**: Kotlin
-- **Architecture**: MVVM
-- **Dependency Injection**: Koin
-- **Navigation**: Compose Navigation
-- **Design**: Material 3
-- **Charts**: PieChart
-
-
-
-
-## 🎨 Customization
-
-The app offers extensive theming options:
-- **57 different theme combinations**
-- **Custom color picker** for categories
-- **Dark/Light mode** toggle
-- **Material 3 dynamic colors** support
-
-
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- Built with ❤️ using Jetpack Compose
-- Icons and design inspiration from Material Design
-- Community feedback and contributions
 
 ## 📧 Contact
 
